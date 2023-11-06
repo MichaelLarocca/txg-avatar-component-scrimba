@@ -10,7 +10,7 @@ function App() {
     <div className="ctn">
       {/* <Avatar src={Michael} alt="Michael Larocca" /> */}
       <Avatar src={Bob} alt="Bob Ziroll" />
-      <Avatar src={ScrimbaLogo} alt="Michael Larocca" />
+      <Avatar src={ScrimbaLogo} alt="Scrimba Logo" />
       <Avatar>BZ</Avatar>
       <Avatar />
     </div>
