@@ -15,7 +15,7 @@ body {
   background-color: #2F2F2F;
 }
 
-.ctn {
+.ctn div {
   display: flex;
   justify-content: center;
   align-items: center;

@@ -1,14 +1,12 @@
 import { IoPersonSharp } from "react-icons/io5"
 
 function randomColor() {
-    const colorArray = ['navy', 'pink', 'red', 'blue', 'green'];
+    const colorArray = ['var(--navy)', 'var(--pink)', 'var(--red)', 'var(--blue)', 'var(--green)'];
     return colorArray[Math.floor(Math.random() * colorArray.length)];
 }
 
 function renderAvatar(props) {
-  if (props.src && typeof props.src === 'string' && props.src.includes('.png') ||
-      props.src && typeof props.src === 'string' && props.src.includes('.jpg')
-  ) {
+  if (props.src && typeof props.src === 'string' && props.src.includes('.png')) {
     return (
       <div className="avatar avatar-letters" style={{ backgroundColor: 'white' }}>
         <img src={props.src} alt="Avatar" />
@@ -26,7 +24,6 @@ function renderAvatar(props) {
 }
 
 export default function Avatar(props) {
-
     return (
         renderAvatar(props)
     )
