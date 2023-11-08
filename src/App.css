@@ -80,7 +80,7 @@ body {
 }
 
 @media screen and (max-width: 400px) {
-  .ctn {
+  .ctn div {
     flex-direction: column;
   }
 }
